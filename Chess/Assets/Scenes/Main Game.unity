@@ -9824,7 +9824,6 @@ GameObject:
   - component: {fileID: 6294455083820184606}
   - component: {fileID: 3026924140544460943}
   - component: {fileID: 3026924140544460942}
-  - component: {fileID: 3026924140544460941}
   - component: {fileID: 3026924140544460940}
   m_Layer: 0
   m_Name: Queen - Black
@@ -9842,7 +9841,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3026924140544460939}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3cd44aad1cd45dd47960a51c72ddd287, type: 3}
+  m_Script: {fileID: 11500000, guid: 2df7cae13935d8d4f89d94f6b6e4bba2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   indicator: {fileID: 4784120943416943304, guid: f713a00e54aee2d489fbc7491ec71e40,
@@ -9850,24 +9849,7 @@ MonoBehaviour:
   side: 1
   camera: {fileID: 282840813}
   cont: {fileID: 1560677027}
---- !u!114 &3026924140544460941
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3026924140544460939}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bcca28ada2decab47a0e90884e2030a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  indicator: {fileID: 4784120943416943304, guid: f713a00e54aee2d489fbc7491ec71e40,
-    type: 3}
-  side: 1
-  camera: {fileID: 282840813}
-  cont: {fileID: 1560677027}
-  bish: 0
+  bish: 1
 --- !u!65 &3026924140544460942
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10254,14 +10236,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 6252771257419599736}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bcca28ada2decab47a0e90884e2030a4, type: 3}
+  m_Script: {fileID: 11500000, guid: 2df7cae13935d8d4f89d94f6b6e4bba2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   indicator: {fileID: 1132793455849642, guid: 0d2f6b4842f4bed4eb85bf1b8a9e759a, type: 3}
   side: -1
   camera: {fileID: 282840813}
   cont: {fileID: 1560677027}
-  bish: 0
+  bish: 1
 --- !u!65 &6252771257419599738
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10291,22 +10273,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &6252771257419599740
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6252771257419599736}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3cd44aad1cd45dd47960a51c72ddd287, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  indicator: {fileID: 1132793455849642, guid: 0d2f6b4842f4bed4eb85bf1b8a9e759a, type: 3}
-  side: -1
-  camera: {fileID: 282840813}
-  cont: {fileID: 1560677027}
 --- !u!23 &6294455083820184606
 MeshRenderer:
   m_ObjectHideFlags: 0
